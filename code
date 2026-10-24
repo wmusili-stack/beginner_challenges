@@ -1,0 +1,55 @@
+#Print 10 Numbers 
+
+#Using a for loop 
+for i in range(1,11):
+    print(i)
+
+#Using a while loop
+count = 1 
+
+while count in range(1,11):
+    print(count)
+    count+=1 
+    
+
+
+#Check if a Number is Even or Odd
+q1 = int(input("Please enter a number"))
+if q1 % 2 == 0 :
+         print("The number is even")
+else:
+         print("The number is odd")    
+  
+
+#Reverse a String
+text = "I love myself"
+print(text[::-1])
+
+#FizzBuzz
+  for i in range (0, 16):
+    if  i % 3 ==0 and i % 5 ==0:
+        print("FizzBuzz")
+    elif i % 5 ==0:
+        print("Buzz")
+    elif i % 3 ==0 :
+        print("Fizz")
+    else:
+        print(i)
+
+#Find the Largest Number in a List
+
+#using max function 
+l1 = [3, 7, 2, 9, 1]
+highest = max(l1)
+print(highest)
+
+#using a for loop 
+l1 = [4, 9, 2, 9, 1]
+highest = l1[0]
+for i in l1:
+    if i > highest :
+        highest = i 
+print(highest)
+
+
+
